@@ -1,0 +1,31 @@
+.container{
+    width: 960px;
+    height: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: .5px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.box{
+    background-color: white;
+}
+
+.coloredBox {
+    background-color: black;
+}
+.buttonDiv{
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+}
